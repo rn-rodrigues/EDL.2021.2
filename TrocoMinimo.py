@@ -25,7 +25,7 @@ def caminho(resp_local,troco):
 quantia=68
 moedas=[100,50,25,10,5,1]  # (nome=moedas, propriedade=array, tempo=execução)
 resp_local=[0]*(quantia+1)
-contador=[0]*(quantia+1) 
+contador=[0]*(quantia+1) # (nome=contador, propriedade=valor, tempo=execução)
 
 
 DonPython(moedas,quantia,contador,resp_local) # (nome=DonPython, propriedade=função, tempo=carregamento)
